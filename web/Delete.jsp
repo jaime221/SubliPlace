@@ -16,8 +16,7 @@
     String clave = "password";
     Class.forName(Driver);
     con = DriverManager.getConnection(url, user, clave);
-    
-    // Empezamos actualizando el campo 'state' a 0 en lugar de eliminar la fila
+  
     PreparedStatement ps;
     int id = Integer.parseInt(request.getParameter("id"));
     ps = con.prepareStatement("UPDATE roles SET estado = 0 WHERE id = ?");

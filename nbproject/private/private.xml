@@ -15,7 +15,17 @@
             <file>file:/C:/Users/MINEDUCYT/Documents/NetBeansProjects/CRUD-JSP/web/Inicio.jsp</file>
         </group>
         <group name="SubliPlace">
-            <file>file:/C:/Users/MINEDUCYT/Documents/NetBeansProjects/SubliPlace/web/index.jsp</file>
+            <file>file:/C:/Users/MINEDUCYT/Downloads/SubliPlace/web/Editar.jsp</file>
+            <file>file:/C:/Users/MINEDUCYT/Downloads/SubliPlace/web/Agregar.jsp</file>
+            <file>file:/C:/Users/MINEDUCYT/Downloads/SubliPlace/web/Ingresos/DetallesDeIngresos.jsp</file>
+            <file>file:/C:/Users/MINEDUCYT/Downloads/SubliPlace/web/Productos.jsp</file>
+            <file>file:/C:/Users/MINEDUCYT/Downloads/SubliPlace/web/Inicio.jsp</file>
+            <file>file:/C:/Users/MINEDUCYT/Downloads/SubliPlace/web/Ingresos/Ingreso.jsp</file>
+            <file>file:/C:/Users/MINEDUCYT/Downloads/SubliPlace/web/Ventas.jsp</file>
+            <file>file:/C:/Users/MINEDUCYT/Downloads/SubliPlace/web/Ingresos/ObtenerDetalles.jsp</file>
+            <file>file:/C:/Users/MINEDUCYT/Downloads/SubliPlace/web/Layout.jsp</file>
+            <file>file:/C:/Users/MINEDUCYT/Downloads/SubliPlace/web/index.jsp</file>
+            <file>file:/C:/Users/MINEDUCYT/Downloads/SubliPlace/web/Delete.jsp</file>
         </group>
     </open-files>
 </project-private>
