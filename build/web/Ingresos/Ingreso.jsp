@@ -218,7 +218,7 @@ pstmtDetalle.executeUpdate();
                 title: 'Éxito',
                 text: 'Ingreso y detalle de ingreso guardados exitosamente.'
             }).then(function () {
-               
+
                 window.location.href = "../index.jsp";
             });
         </script>
