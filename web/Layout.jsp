@@ -35,7 +35,7 @@
 <body>
     <div class="navbar">
         <a href="Inicio.jsp" class="active">Inicio</a>
-        <a href="#">Usuarios</a>
+        <a href="Usuario/Usuarios.jsp">Usuarios</a>
         <a href="index.jsp">Roles</a>
         <a href="Ventas.jsp">Ventas</a>
         <a href="Productos.jsp">Productos</a>
