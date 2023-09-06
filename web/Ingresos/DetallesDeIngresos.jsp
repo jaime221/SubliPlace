@@ -157,6 +157,9 @@
         </style>
     </head>
     <body>
+        <jsp:include page="../Layout.jsp" />
+          <br>
+        <br>
         <h1>Lista de Ingresos</h1>
         <table border="1">
             <tr>

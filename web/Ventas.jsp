@@ -19,6 +19,9 @@
     </head>
     <body>
         <jsp:include page="Layout.jsp" />
+        <br>
+        <br>
+
         <div class="container">
             <h1>Ventas en Tiempo Real</h1>
             <div class="chart-container">

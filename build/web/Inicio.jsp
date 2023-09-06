@@ -1,5 +1,3 @@
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +6,7 @@
     <title>Bienvenido a Subli Place</title>
     <style>
         body {
-            background-image: url('https://i.ytimg.com/vi/jD2Bkta9ErA/maxresdefault.jpg'); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la URL de tu imagen de fondo */
+            background-color: beige;
             background-size: cover;
             background-position: center;
             height: 100vh;
@@ -19,25 +17,21 @@
             align-items: center;
             text-align: center;
             font-family: Arial, sans-serif;
+            color: #fff;
         }
         .animated-text {
             font-size: 48px;
-            color: #fff;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
             animation: text-animation 2s ease-in-out infinite;
         }
         @keyframes text-animation {
-            0% {
+            0%, 100% {
                 opacity: 0;
                 transform: translateY(-20px);
             }
             50% {
                 opacity: 1;
                 transform: translateY(0);
-            }
-            100% {
-                opacity: 0;
-                transform: translateY(20px);
             }
         }
         .enter-button {
@@ -49,6 +43,8 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
         }
         .enter-button:hover {
             background-color: #2980b9;
@@ -57,10 +53,10 @@
 </head>
 <body>
     <div class="animated-text">
-        Bienvenido a Subli Place
+        ¡Bienvenido a Subli Place!
     </div>
-    <a href="Productos.jsp"> <!-- Reemplaza 'pagina-de-ingreso.html' con la URL de tu pÃ¡gina de ingreso -->
-        <button  class="enter-button">Ingresar</button>
+    <a href="Productos.jsp"> <!-- Reemplaza 'Productos.jsp' con la URL de tu página de productos -->
+        <button class="enter-button">Comprar ahora</button>
     </a>
 </body>
 </html>

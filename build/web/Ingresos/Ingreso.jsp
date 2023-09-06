@@ -72,6 +72,11 @@
         </style>
     </head>
     <body>
+        <jsp:include page="../Layout.jsp" />
+          <br>
+        <br>
+        
+        
         <h1>Formulario de Ingreso</h1>
         <form action="" method="post">
             <label for="IdProveedor">Proveedor:</label>

@@ -31,6 +31,9 @@
     </style>
 </head>
 <body>
+    <jsp:include page="../Layout.jsp" />
+      <br>
+        <br>
     <h1>Detalles de Ingreso</h1>
 
     <%
